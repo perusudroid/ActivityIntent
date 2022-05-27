@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/btnString"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Pass String"
+       />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass Object"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass List"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKotlinBundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin bundleOf"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConverted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass Converted"
+        />
+
+</LinearLayout>
+
+</layout>
